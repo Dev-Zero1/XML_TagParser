@@ -2,9 +2,10 @@ import os
 from xml.dom import minidom
 import time
 
-path = "C://python//scripts//data//xml//"
-path2 = "C://python//scripts//compiledData//"
+path = "C://Python//Scripts//data//xml//"
+path2 = "C://Python//Scripts//compiledData//"
 fileType = ".xml"
+
 os.remove((path2+'data.txt'))
 time.sleep(2)
 ##dir_list = os.listdir(path)
